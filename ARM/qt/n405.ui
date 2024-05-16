@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>N405</class>
+ <widget class="QDialog" name="N405">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1088</width>
+    <height>665</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>420</y>
+     <width>951</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #4a90e2; /* Синий цвет */
+    border-style: solid;
+    border-color: #0078d7; /* Цвет рамки */
+    border-width: 2px;
+    border-radius: 5px; /* Закругленные углы */
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер текста */
+    padding: 8px 16px; /* Отступы внутри кнопки */
+}
+
+QPushButton:hover {
+    background-color: #357ae8; /* Измененный цвет при наведении */
+    border-color: #0056b3; /* Измененный цвет рамки при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #2f5bb7; /* Измененный цвет при нажатии */
+    border-color: #002d5a; /* Измененный цвет рамки при нажатии */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Применить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #4a90e2; /* Синий цвет */
+    border-style: solid;
+    border-color: #0078d7; /* Цвет рамки */
+    border-width: 2px;
+    border-radius: 5px; /* Закругленные углы */
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер текста */
+    padding: 8px 16px; /* Отступы внутри кнопки */
+}
+
+QPushButton:hover {
+    background-color: #357ae8; /* Измененный цвет при наведении */
+    border-color: #0056b3; /* Измененный цвет рамки при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #2f5bb7; /* Измененный цвет при нажатии */
+    border-color: #002d5a; /* Измененный цвет рамки при нажатии */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Назад в меню</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #4a90e2; /* Синий цвет */
+    border-style: solid;
+    border-color: #0078d7; /* Цвет рамки */
+    border-width: 2px;
+    border-radius: 5px; /* Закругленные углы */
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер текста */
+    padding: 8px 16px; /* Отступы внутри кнопки */
+}
+
+QPushButton:hover {
+    background-color: #357ae8; /* Измененный цвет при наведении */
+    border-color: #0056b3; /* Измененный цвет рамки при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #2f5bb7; /* Измененный цвет при нажатии */
+    border-color: #002d5a; /* Измененный цвет рамки при нажатии */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Назад к выбору этажа</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #4a90e2; /* Синий цвет */
+    border-style: solid;
+    border-color: #0078d7; /* Цвет рамки */
+    border-width: 2px;
+    border-radius: 5px; /* Закругленные углы */
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер текста */
+    padding: 8px 16px; /* Отступы внутри кнопки */
+}
+
+QPushButton:hover {
+    background-color: #357ae8; /* Измененный цвет при наведении */
+    border-color: #0056b3; /* Измененный цвет рамки при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #2f5bb7; /* Измененный цвет при нажатии */
+    border-color: #002d5a; /* Измененный цвет рамки при нажатии */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Назад к выбору комнаты</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>360</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+    color: #FF0000; /* Красный цвет текста */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Забронировать</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="img">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>431</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>60</y>
+     <width>331</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Трехместный номер ЛЮКС</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>130</y>
+     <width>461</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>Особенности VIP номера:</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Просторная и элегантно оформленная спальня </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>доступ к отдельным зонам отдыха</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Роскошная ванная комната с джакузи</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Панорамные окна с потрясающим видом</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Идеально подходит для семейного отдыха</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Вы не пожалеете о своем выборе!</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

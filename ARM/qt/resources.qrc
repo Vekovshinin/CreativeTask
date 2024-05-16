@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/imgpreview.jpg</file>
+        <file>img/9b68944b.jpg</file>
+        <file>img/VipOne.jpg</file>
+        <file>img/dinaAdmin.jpg</file>
+        <file>img/zvezd.jpg</file>
+        <file>img/405.jpg</file>
+    </qresource>
+</RCC>

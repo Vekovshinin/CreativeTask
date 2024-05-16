@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SecondWindow</class>
+ <widget class="QDialog" name="SecondWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1141</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>0</y>
+     <width>581</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Основное окно. Общая информация о гостинице.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>80</y>
+     <width>361</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Гостиница: МЕЙРОН</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>1081</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #4a90e2; /* Синий цвет */
+    border-style: solid;
+    border-color: #0078d7; /* Цвет рамки */
+    border-width: 2px;
+    border-radius: 5px; /* Закругленные углы */
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер текста */
+    padding: 8px 16px; /* Отступы внутри кнопки */
+}
+
+QPushButton:hover {
+    background-color: #357ae8; /* Измененный цвет при наведении */
+    border-color: #0056b3; /* Измененный цвет рамки при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #2f5bb7; /* Измененный цвет при нажатии */
+    border-color: #002d5a; /* Измененный цвет рамки при нажатии */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Открыть информацию о всех жильцах</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #4a90e2; /* Синий цвет */
+    border-style: solid;
+    border-color: #0078d7; /* Цвет рамки */
+    border-width: 2px;
+    border-radius: 5px; /* Закругленные углы */
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер текста */
+    padding: 8px 16px; /* Отступы внутри кнопки */
+}
+
+QPushButton:hover {
+    background-color: #357ae8; /* Измененный цвет при наведении */
+    border-color: #0056b3; /* Измененный цвет рамки при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #2f5bb7; /* Измененный цвет при нажатии */
+    border-color: #002d5a; /* Измененный цвет рамки при нажатии */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Открыть окно гостиницы</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #4a90e2; /* Синий цвет */
+    border-style: solid;
+    border-color: #0078d7; /* Цвет рамки */
+    border-width: 2px;
+    border-radius: 5px; /* Закругленные углы */
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер текста */
+    padding: 8px 16px; /* Отступы внутри кнопки */
+}
+
+QPushButton:hover {
+    background-color: #357ae8; /* Измененный цвет при наведении */
+    border-color: #0056b3; /* Измененный цвет рамки при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #2f5bb7; /* Измененный цвет при нажатии */
+    border-color: #002d5a; /* Измененный цвет рамки при нажатии */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Выход</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Главный администратор:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Мейрон Дина Максимовна</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="img">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>221</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="img1">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>90</y>
+     <width>251</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>120</y>
+     <width>471</width>
+     <height>260</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Местоположение: Москва, Россия</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="listWidget">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Удобства и сервис:</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Просторные и роскошно обставленные номера</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Рестораны высшего класса с изысканной кухней</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Спа-центр с бассейном и сауной</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Современно оборудованные конференц-залы</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Круглосуточная техническая поддержка</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>Открыть инфомацию о гостинице</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
